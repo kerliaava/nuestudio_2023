@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    overflow-x: hidden;
+    transition: background-color 0.1s ease;
+    height: 1vh;
+  
+   
+}
+
+main {
+    padding: 0 5vw;
+
+    @include lg {
+        padding: 0 15vw;
+    }
+
+}
+
+.panel {
+    min-height: 100vh;
+
+}
+
+.color-pink {
+    background-color: white;
+    //#86615c;
+}
+
+.color-purple {
+    background-color: black;
+}
+
+
+a:visited{
+    text-decoration: none;
+    outline: none;
+}
+
+
+
+
+
+
+
+
+/*#6DA092, #3E646B, #B9B4B0  2E0014*/

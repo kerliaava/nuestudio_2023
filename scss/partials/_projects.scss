@@ -1,0 +1,127 @@
+.main-container {
+
+
+    .project-reverse {
+
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 4em;
+        overflow-x: hidden;
+
+
+        @include md {
+            display: grid;
+            column-gap: 3em;
+            grid-template-columns: 1fr 1fr;
+            margin-bottom: 0;
+        }
+
+        @include lg {
+            margin-bottom: 4em;
+        }
+    }
+
+
+
+    .project {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 4em;
+        overflow-x: hidden;
+        column-gap: 3em;
+
+
+        @include md {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+
+        }
+
+        @include lg {
+            margin-bottom: 4em;
+        }
+    }
+
+
+    .project-text {
+        font-family: $main-font;
+        color: white;
+        line-height: 2;
+        letter-spacing: 3px;
+        text-align: center;
+        font-size: 13px;
+        font-weight: lighter;
+        
+
+
+        @include md {
+            text-align: right;
+
+        }
+
+        @include lg {
+            text-align: right;
+            margin-bottom: 15vh;
+        }
+
+        .link-indicator{
+            margin-top: 1em;
+            text-decoration: underline;
+
+        }
+
+
+    }
+
+    .text-left {
+        text-align: center;
+
+        @include md {
+            text-align: left;
+        }
+    }
+
+    .text-dark {
+        color: black;
+    }
+
+    .item {
+        
+        width: 350px;
+        height: 350px;
+        clip-path: circle(40%);
+        margin-bottom: 15vh;
+        margin-top: 2em;
+        justify-self: center;
+        align-self: center;
+        overflow-x: hidden;
+        overflow-y: hidden;
+        outline: none;
+
+        @include md {
+            margin-top: 10em;
+        }
+
+        @include lg {
+            margin-top: 0;
+        }
+
+
+
+        img {
+            width: 100%;
+            /*container height - (border thickness * 2) */
+            height: 100%;
+            object-fit: cover;
+
+        }
+
+        
+
+    }
+}
