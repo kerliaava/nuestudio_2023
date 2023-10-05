@@ -14,15 +14,21 @@
  
 
    #landing-logo{
-    width: 600px;
+    width: 75vw;
     border: none;
-    margin-bottom: 44px;
+
+    @include lg {
+        width: 50vw; 
+    }
+  
 }
 
     .services {
-       margin-bottom: 20px; 
        letter-spacing: 2px;
        font-weight: 100;
+       text-align: center;
+       padding: 20px 80px;
+       line-height: 27px;
     }
 
 

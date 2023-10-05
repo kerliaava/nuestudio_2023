@@ -167,14 +167,20 @@ a:visited {
   background-size: cover;
 }
 .landing #landing-logo {
-  width: 600px;
+  width: 75vw;
   border: none;
-  margin-bottom: 44px;
+}
+@media (min-width: 1025px) {
+  .landing #landing-logo {
+    width: 50vw;
+  }
 }
 .landing .services {
-  margin-bottom: 20px;
   letter-spacing: 2px;
   font-weight: 100;
+  text-align: center;
+  padding: 20px 80px;
+  line-height: 27px;
 }
 .landing .text:before {
   left: 1.5px;
