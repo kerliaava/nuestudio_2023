@@ -12,22 +12,11 @@ cursive;
 h2 {
     font-family: $main-font;
     color: white;
-    font-size: 13px;
+    font-size: 10px;
     letter-spacing: 5px;
     z-index: 3;
-
-
 }
 
-h3 {
-    font-family: $main-font;
-    color: white;
-    font-size: 25px;
-    letter-spacing: 5px;
-    margin-bottom: 1em;
-    text-transform: uppercase;
-    line-height: 1.2;
-}
 
 a {
     text-decoration: none;
