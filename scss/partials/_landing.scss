@@ -10,21 +10,15 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    
-  
+
+ 
+
+   #landing-logo{
+    width: 20vw;
+    border: none;
+}
 
 
-    //@include md{
-       // padding-left:0;
-    //}
-
-   // @include lg {
-        //height: 120vh;
-       // padding-bottom: 5em;
-
-   // }
-
-  
 
     .text {
         font-family: 'Poppins', sans-serif;

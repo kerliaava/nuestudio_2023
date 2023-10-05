@@ -4,11 +4,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Josefin+Slab&display=swap");
 h2 {
-  font-family: "poppins", sans-serif;
+  font-family: "montserrat", sans-serif;
   color: white;
-  font-size: 10px;
+  font-size: 12px;
   letter-spacing: 5px;
   z-index: 3;
+  font-weight: 100;
 }
 
 a {
@@ -90,7 +91,7 @@ a:visited {
   }
 }
 .main-container .project-text {
-  font-family: "poppins", sans-serif;
+  font-family: "montserrat", sans-serif;
   color: white;
   line-height: 2;
   letter-spacing: 3px;
@@ -167,6 +168,10 @@ a:visited {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+.landing #landing-logo {
+  width: 20vw;
+  border: none;
 }
 .landing .text {
   font-family: "Poppins", sans-serif;
@@ -277,7 +282,7 @@ a:visited {
 
 .project-description {
   font-size: 13px;
-  font-family: "poppins", sans-serif;
+  font-family: "montserrat", sans-serif;
   color: white;
   letter-spacing: 3px;
   text-align: justify;
@@ -543,7 +548,7 @@ img {
 }
 
 .controls {
-  font-family: "poppins", sans-serif;
+  font-family: "montserrat", sans-serif;
   letter-spacing: 3px;
   font-size: 10px;
   color: #594232;
