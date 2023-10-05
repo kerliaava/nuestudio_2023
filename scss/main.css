@@ -1,13 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Coda:wght@800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Montserrat:wght@100&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Josefin+Slab&display=swap");
 h2 {
   font-family: "montserrat", sans-serif;
   color: white;
-  font-size: 12px;
-  letter-spacing: 5px;
+  font-size: 13px;
   z-index: 3;
   font-weight: 100;
 }
@@ -170,35 +167,14 @@ a:visited {
   background-size: cover;
 }
 .landing #landing-logo {
-  width: 20vw;
+  width: 600px;
   border: none;
+  margin-bottom: 44px;
 }
-.landing .text {
-  font-family: "Poppins", sans-serif;
-  position: relative;
-  color: #fff;
-  font-weight: 700;
-  font-size: 10px;
-  transform: scale(2);
-  letter-spacing: 10px;
-  text-transform: uppercase;
-  padding: 8px;
-}
-@media (min-width: 1025px) {
-  .landing .text {
-    font-size: 45px;
-    transform: scale(2);
-    padding: 30px;
-    letter-spacing: 14px;
-  }
-}
-@media (min-width: 768px) {
-  .landing .text {
-    font-size: 35px;
-    transform: scale(2);
-    padding: 23.1px;
-    letter-spacing: 14px;
-  }
+.landing .services {
+  margin-bottom: 20px;
+  letter-spacing: 2px;
+  font-weight: 100;
 }
 .landing .text:before {
   left: 1.5px;

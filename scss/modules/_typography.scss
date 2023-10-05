@@ -1,7 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Coda:wght@800&display=swap');
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Montserrat:wght@100&display=swap');
 
 $main-font: 'montserrat',sans-serif;
 
@@ -11,10 +10,10 @@ cursive;
 h2 {
     font-family: $main-font;
     color: white;
-    font-size: 12px;
-    letter-spacing: 5px;
+    font-size: 13px;
     z-index: 3;
     font-weight: 100;
+
 }
 
 

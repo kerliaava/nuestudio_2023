@@ -14,40 +14,18 @@
  
 
    #landing-logo{
-    width: 20vw;
+    width: 600px;
     border: none;
+    margin-bottom: 44px;
 }
 
-
-
-    .text {
-        font-family: 'Poppins', sans-serif;
-        position: relative;
-        color: #fff;
-        font-weight: 700;
-        font-size: 10px;
-        transform: scale(2);
-        letter-spacing: 10px;
-        text-transform: uppercase;
-        padding: 8px;
-
-
-        @include lg {
-            font-size: 45px;
-            transform: scale(2);
-            padding: 30px;
-            letter-spacing: 14px;
-
-        }
-
-        @include md {
-            font-size: 35px;
-            transform: scale(2);
-            padding: 23.1px;
-            letter-spacing: 14px;
-
-        }
+    .services {
+       margin-bottom: 20px; 
+       letter-spacing: 2px;
+       font-weight: 100;
     }
+
+
 
     .text:before {
         left: 1.5px;
