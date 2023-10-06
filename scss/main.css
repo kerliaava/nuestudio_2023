@@ -6,7 +6,7 @@ h2 {
   font-size: 11px;
   z-index: 3;
   font-weight: 100;
-  letter-spacing: 2px;
+  letter-spacing: 3px;
 }
 
 a {
@@ -173,12 +173,12 @@ a:visited {
 }
 @media (min-width: 1025px) {
   .landing #landing-logo {
-    width: 680px;
+    width: 750px;
     margin-bottom: 20px;
   }
 }
 .landing .sub-text {
-  letter-spacing: 2px;
+  letter-spacing: 3px;
   font-size: 11px;
   font-weight: 100;
   text-align: center;
