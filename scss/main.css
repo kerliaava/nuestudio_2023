@@ -187,17 +187,11 @@ a:visited {
 }
 @media (min-width: 768px) {
   .landing .sub-text {
-    font-size: 13px;
     padding: 33px 130px 20px 130px;
   }
 }
 .landing .subtitle {
   font-size: 11px;
-}
-@media (min-width: 768px) {
-  .landing .subtitle {
-    font-size: 13px;
-  }
 }
 
 .footer {
